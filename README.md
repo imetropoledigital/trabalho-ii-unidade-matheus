@@ -18,6 +18,10 @@
 - [x] O usuário da API pode criar qualquer entidade
 
 ## Como usar
+Após instalar as dependências, utilize o comando:
+```
+docker-compose up -d
+```
 Inicie o servidor usando:
 ```
 yarn dev

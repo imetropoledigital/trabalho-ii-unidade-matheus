@@ -18,7 +18,7 @@
 - [x] O usuário da API pode criar qualquer entidade
 
 ## Como usar
-Após instalar as dependências, utilize o comando:
+Após instalar as dependências, utilize o seguinte comando para subir o container do banco de dados:
 ```
 docker-compose up -d
 ```

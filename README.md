@@ -26,6 +26,30 @@ Utilize o seguinte Endpoint local para realizar suas requisições:
 ```
 http://localhost:3001/
 ```
+## Rotas
+Criação e retorno das entidades no banco de dados:
+```
+POST /entidades
+```
+```
+GET /entidades
+```
+Rotas dinâmicas para cada entidade:
+```
+GET /{entidade}
+```
+```
+GET /{entidade}/:id
+```
+```
+POST /{entidade}
+```
+```
+PUT /{entidade}/:id
+```
+```
+DELETE /{entidade}/:id
+```
 
 ## Exemplos de uso
 
